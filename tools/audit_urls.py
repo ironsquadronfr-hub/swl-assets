@@ -71,7 +71,10 @@ def main():
     # The manifest and the directory must say the same thing. A file on disk
     # that nothing lists would go up unnoticed and unchecked; a line with no
     # file behind it means an asset went missing before it was ever pushed.
-    on_disk = {f for f in os.listdir(ASSETS) if f != ".DS_Store"}
+    # Files only: the veil-backdrops folder lives under its own rules and is
+    # not in the manifest (see the README).
+    on_disk = {f for f in os.listdir(ASSETS)
+               if f != ".DS_Store" and os.path.isfile(os.path.join(ASSETS, f))}
     listed = {r["fichier"] for r in rows}
     drift = False
     for f in sorted(on_disk - listed):
