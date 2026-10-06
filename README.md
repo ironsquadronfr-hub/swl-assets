@@ -38,14 +38,17 @@ in the manifest, or a manifest line with no file, is a bug.
 | `isq-overlay-assets` | 89 | range and cohesion overlays, projectors, silhouettes |
 | `isq-token-assets` | 16 | the V2 tokens, including the dual-platform smoke volume |
 | `isq-map-assets` | 1 | the Imperial Checkpoint marble, recovered from the Wayback Machine |
-| `featured-maps` | 62 | Featured Map assets rescued off fragile third-party hosts |
+| `featured-maps` | 64 | Featured Map assets rescued off fragile third-party hosts, and two that died on Steam |
 
 The `featured-maps` batch deserves a word. The ten Featured Maps pull 258
 assets, and 196 of those sit on Steam's own CDN — the same host the whole
 mod already depends on, so re-hosting them would buy nothing and cost 58 MB.
 The other 62 sat on personal imgur accounts, one author's Dropbox,
 anonymous gists, a pastebin and a texture site. Those are the ones here.
-Their original addresses are in the manifest's `origine` column.
+Two more joined later: the mesh and texture of Geonosis's "Destroyed
+Advanced Dwarf Spider Droid", which did die on Steam. No copy survived
+anywhere public; these are the original bytes, recovered from a player's TTS
+cache. Their original addresses are in the manifest's `origine` column.
 
 ## Checking the store is alive
 
