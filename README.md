@@ -30,6 +30,22 @@ rule can be checked rather than trusted.
 it came from, and where it came from originally. A file on disk that is not
 in the manifest, or a manifest line with no file, is a bug.
 
+## The one folder with other rules: `assets/veil-backdrops/`
+
+The pictures behind the loading veil, shown in turn, one per load. The mod
+lists this folder through the GitHub API, so the folder IS the list: drop a
+picture in to add it to the rotation, delete it to take it out. No code
+change, no manifest line.
+
+- **Deleting is allowed here**, and only here: a picture leaves the rotation
+  when its contract or its season ends. A save still pointing at it shows
+  the plain dark veil once, then moves on to the next picture.
+- **Never replace a picture under the same name.** TTS caches by URL, so a
+  player who has seen the old one would keep seeing it for good. A new
+  picture is a new name.
+- 16:9, 1920x1080, JPG or PNG, no text and no dark band of its own: the
+  band, the logo and the shortcut sheet are drawn on top.
+
 ## What is in here
 
 | batch | files | what it is |
