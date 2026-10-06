@@ -53,7 +53,7 @@ change, no manifest line.
 | `isq-metal-rebuilds` | 82 | Unity bundles rebuilt for Metal, the Mac rendering fix |
 | `isq-overlay-assets` | 89 | range and cohesion overlays, projectors, silhouettes |
 | `isq-token-assets` | 16 | the V2 tokens, including the dual-platform smoke volume |
-| `isq-map-assets` | 1 | the Imperial Checkpoint marble, recovered from the Wayback Machine |
+| `isq-map-assets` | 2 | the Imperial Checkpoint marble, recovered from the Wayback Machine, and the POI guide projector |
 | `featured-maps` | 64 | Featured Map assets rescued off fragile third-party hosts, and two that died on Steam |
 
 The `featured-maps` batch deserves a word. The ten Featured Maps pull 258
