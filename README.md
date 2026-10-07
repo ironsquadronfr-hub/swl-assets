@@ -51,7 +51,7 @@ change, no manifest line.
 | batch | files | what it is |
 |---|---:|---|
 | `isq-metal-rebuilds` | 82 | Unity bundles rebuilt for Metal, the Mac rendering fix |
-| `isq-overlay-assets` | 89 | range and cohesion overlays, projectors, silhouettes |
+| `isq-overlay-assets` | 91 | range and cohesion overlays, projectors, silhouettes, the height guide |
 | `isq-token-assets` | 16 | the V2 tokens, including the dual-platform smoke volume |
 | `isq-map-assets` | 3 | the Imperial Checkpoint marble, recovered from the Wayback Machine, and the POI guide projector (v1, v2) |
 | `featured-maps` | 64 | Featured Map assets rescued off fragile third-party hosts, and two that died on Steam |
