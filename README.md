@@ -54,7 +54,7 @@ change, no manifest line.
 | `isq-overlay-assets` | 91 | range and cohesion overlays, projectors, silhouettes, the height guide |
 | `isq-token-assets` | 16 | the V2 tokens, including the dual-platform smoke volume |
 | `isq-map-assets` | 3 | the Imperial Checkpoint marble, recovered from the Wayback Machine, and the POI guide projector (v1, v2) |
-| `featured-maps` | 64 | Featured Map assets rescued off fragile third-party hosts, and two that died on Steam |
+| `featured-maps` | 65 | Featured Map assets rescued off fragile third-party hosts, two that died on Steam, and Geonosis's dust rebuilt |
 
 The `featured-maps` batch deserves a word. The ten Featured Maps pull 258
 assets, and 196 of those sit on Steam's own CDN — the same host the whole
@@ -65,6 +65,10 @@ Two more joined later: the mesh and texture of Geonosis's "Destroyed
 Advanced Dwarf Spider Droid", which did die on Steam. No copy survived
 anywhere public; these are the original bytes, recovered from a player's TTS
 cache. Their original addresses are in the manifest's `origine` column.
+The last one is not a rescue but a rebuild: Geonosis's drifting dust lived on
+infinitebucket.com, whose domain is gone with no copy left anywhere, so
+`geonosis_dust_v1.unity3d` recreates the effect (a low dust veil and
+occasional gusts that curl into a ring), Windows and Mac in one bundle.
 
 ## Checking the store is alive
 
