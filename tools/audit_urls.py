@@ -12,7 +12,8 @@ Steam's among them -- answer 200 to a HEAD for a file that is gone. Asking
 for a byte range makes them actually look.
 
 The fast pass is the one that belongs on a schedule. The deep pass moves
-ninety megabytes and is for after a push, or when something smells wrong.
+the whole store (170 MB in October 2026) and is for after a push, or when
+something smells wrong.
 
 Exit code 0 when every file checked out, 1 otherwise, so a cron or a
 dead man's switch can watch it.

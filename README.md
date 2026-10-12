@@ -15,9 +15,9 @@ https://raw.githubusercontent.com/ironsquadronfr-hub/swl-assets/main/assets/<fil
 
 **1. Never delete a file.** A URL that has ever been live is referenced by
 saves we cannot see — a playtester's table from three weeks ago, someone's
-copy of the mod. Ninety megabytes cost nothing; a save that no longer loads
-costs a player. Files that nothing in the current code references stay
-anyway, and the manifest marks them.
+copy of the mod. A few hundred megabytes cost nothing; a save that no
+longer loads costs a player. Files that nothing in the current code
+references stay anyway, and the manifest marks them.
 
 **2. Never rename or overwrite a file.** TTS caches by URL: an asset changed
 in place reaches everyone who already has it as the *old* file, forever,
