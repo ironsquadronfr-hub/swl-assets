@@ -472,3 +472,8 @@ wound_v2_s19.jpg,87977babe16e9e1dd6e63c2ca9ea0cc70eb76dd707dd4d82e51e9ffb4f697fa
 wound_v2_s20.jpg,8e3852ad5f632b2f6b89e6c942ca416ea526dca886eec97fb21127e35627ecc1,87272,isq-token-assets,iron-squadron (artwork by takras; numbers 9-20 added in Elektra Medium Pro Bold)
 poi_guide_recon_isq_v1.unity3d,6afefdcb47bed6cbe519136fa08df24a4f598c3c66839b24ed2d41fdb7a83ddc,65826,isq-map-assets,iron-squadron
 new_table_v3.unity3d,ee6d9f803fbbf8cd0ed6e64223f2f8f3f2fb2a85459201976599b765d5354a45,21594770,isq-map-assets,iron-squadron (Steam table bundle with an opaque sky, so see-through effects show against it)
+ui_welcome_panel_v2.png,8cfb1fd1962c8277f28503a8d97c774c5e622c68c3705451318517f23d76bef1,4660,isq-overlay-assets,iron-squadron (UI style v6: welcome window and floating menu)
+ui_button_v2.png,31aae5470a8735fe54fb79ce420d0063955355d03a5a2ed17fe421e37230b7ce,1013,isq-overlay-assets,iron-squadron (UI style v6: welcome window and floating menu)
+ui_button_active_v2.png,9ed313890a279775f9d769aca9bbc051daaba74786fca26e19aa4f76362e2663,1059,isq-overlay-assets,iron-squadron (UI style v6: welcome window and floating menu)
+ui_tab_v2.png,4d84a8fb64485292627a9cd686ff92e4894f06bf9458dfb4462667a9d310ce63,891,isq-overlay-assets,iron-squadron (UI style v6: welcome window and floating menu)
+ui_tab_active_v2.png,32435f5b8937b55d2b5cf0943f236f035107fa3786ab0c1994cf7b4e87ac1599,1018,isq-overlay-assets,iron-squadron (UI style v6: welcome window and floating menu)
