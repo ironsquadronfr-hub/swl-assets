@@ -471,3 +471,7 @@ wound_v2_s18.jpg,78cc695acd496e4084b91d75a60c216d487a5fa1369e956951f2edfbb2deb6f
 wound_v2_s19.jpg,87977babe16e9e1dd6e63c2ca9ea0cc70eb76dd707dd4d82e51e9ffb4f697fad,85424,isq-token-assets,iron-squadron (artwork by takras; numbers 9-20 added in Elektra Medium Pro Bold)
 wound_v2_s20.jpg,8e3852ad5f632b2f6b89e6c942ca416ea526dca886eec97fb21127e35627ecc1,87272,isq-token-assets,iron-squadron (artwork by takras; numbers 9-20 added in Elektra Medium Pro Bold)
 poi_guide_recon_isq_v1.unity3d,6afefdcb47bed6cbe519136fa08df24a4f598c3c66839b24ed2d41fdb7a83ddc,65826,isq-map-assets,iron-squadron
+sihl_metal_v3.unity3d,1dbd74822c891111051bce2f4aaa76bd4d32eb4c1e7428590844817f16cc2c9e,27796,isq-overlay-assets,iron-squadron (sihl_metal_v2.unity3d drawn after the Museum background)
+sihl_long_variant_metal_v3.unity3d,fb293b3a9af589981818f20007d4ca2f01337217213d75eb4bb4d62116eb0645,28202,isq-overlay-assets,iron-squadron (sihl_long_variant_metal_v2.unity3d drawn after the Museum background)
+sihl_snail_variant_metal_v3.unity3d,1ef7f1944c7f3f7fb9e931914c27a8624b318ca45ed806d2bae2de9771792fa1,28210,isq-overlay-assets,iron-squadron (sihl_snail_variant_metal_v2.unity3d drawn after the Museum background)
+smoke_volume_v3.unity3d,c30b149e3bdba106220e59bb8f09cde4a0d803f85842563a150c56c7d07d5ee0,383650,isq-token-assets,iron-squadron (smoke_volume_v2.unity3d drawn after the Museum background)
