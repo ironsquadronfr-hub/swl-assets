@@ -1,0 +1,3788 @@
+{
+  "SaveName": "",
+  "GameMode": "",
+  "Date": "",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "Rules": "",
+  "TabStates": {},
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -0.553360343,
+        "posY": 1.01924253,
+        "posZ": 2.85775971,
+        "rotX": 3.921038E-05,
+        "rotY": 89.99173,
+        "rotZ": -3.53182477E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Geonosis - \"Badlands of N'g'zi\"",
+      "Description": "v10",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/785234780862656636/53487DF81A11090FF7BA1C6E7FA26D96E80D9D8E/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234780862657065/EEBB10C312C8359898DD55209EE958396A8F4CAE/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 6,
+        "CastShadows": true
+      },
+      "LuaScript": "battlefieldTint = {r = 0.691637754440308, g = 0.37509897351265, b = 0.290391504764557}",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -6.15758,
+            "posY": 1.69302571,
+            "posZ": -0.6352607,
+            "rotX": 0.000160938958,
+            "rotY": 74.99201,
+            "rotZ": 0.000312572345,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Blast Crater [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\nLight Cover:\nMinis size 1 and below (excluding TX-225)\n\nCrater:\nTrooper - Difficult\nG. Vehicle - Open\nRepulsor - Open\n\nTroopers only get cover if they are fully within this terrain.\n\nDoes not obscure LOS",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = -6.15757989883423, y = 1.69302570819855, z = -0.635260701179504}\nrotation = {x = 0.00016093895828817, y = 74.9920120239258, z = 0.000312572345137596}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "c9b2b1"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -4.69325066,
+            "posY": 1.444031,
+            "posZ": 15.24722,
+            "rotX": 359.9775,
+            "rotY": 75.00064,
+            "rotZ": 359.986633,
+            "scaleX": 1.0999999,
+            "scaleY": 1.0999999,
+            "scaleZ": 1.0999999
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 5 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/3375e9ebe255d751196483c59c545591/raw/fe2fa562af6874076a3dc4e0f74dc7c68eeafa63/rock_formation_collider.txt",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -4.69325065612793, y = 1.44403100013733, z = 15.2472200393677}\nrotation = {x = 359.977508544922, y = 75.0006408691406, z = 359.986633300781}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "e16a7c"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -23.08704,
+            "posY": 1.45153522,
+            "posZ": 11.2072849,
+            "rotX": -0.000410094246,
+            "rotY": 195.008392,
+            "rotZ": 4.24206264E-05,
+            "scaleX": 1.6792748,
+            "scaleY": 0.270673364,
+            "scaleZ": 1.138697
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6498258,
+            "g": 0.323511273,
+            "b": 0.216230065
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/780734585255482064/9CA69CBC21ACD9A22F9A7C32C45C02D98253674E/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234780858976044/D7F78E8DBEDD11DFDAF5B61785BD91DA338B1A69/",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234780858945363/D3EEC34C89449348C7E70F3FF7D87AB841D6E3D7/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -23.0870399475098, y = 1.45153522491455, z = 11.2072849273682}\nrotation = {x = -0.000410094246035442, y = 195.008392333984, z = 4.24206264142413E-05}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "84167e"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 23.5220089,
+            "posY": 1.560815,
+            "posZ": 8.468253,
+            "rotX": 358.4036,
+            "rotY": 15.0201721,
+            "rotZ": 0.24174571,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = 23.522008895874, y = 1.5608149766922, z = 8.46825313568115}\nrotation = {x = 358.403594970703, y = 15.0201721191406, z = 0.241745710372925}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "a389d1"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -24.56017,
+            "posY": 1.57040226,
+            "posZ": 10.5916748,
+            "rotX": 0.00018789091,
+            "rotY": 90.00483,
+            "rotZ": 0.000396508549,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = -24.5601692199707, y = 1.57040226459503, z = 10.5916748046875}\nrotation = {x = 0.000187890909728594, y = 90.0048294067383, z = 0.000396508548874408}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "1d1287"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 12.0082731,
+            "posY": 1.69295478,
+            "posZ": 7.482816,
+            "rotX": -0.000224448522,
+            "rotY": 150.009735,
+            "rotZ": 0.000225987285,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Blast Crater [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\nLight Cover:\nMinis size 1 and below (excluding TX-225)\n\nCrater:\nTrooper - Difficult\nG. Vehicle - Open\nRepulsor - Open\n\nTroopers only get cover if they are fully within this terrain.\n\nDoes not obscure LOS",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = 12.0082731246948, y = 1.69295477867126, z = 7.48281621932983}\nrotation = {x = -0.000224448522203602, y = 150.009735107422, z = 0.000225987285375595}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "c6f511"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 24.7082539,
+            "posY": 1.553832,
+            "posZ": -8.634096,
+            "rotX": -0.0029653355,
+            "rotY": 89.98672,
+            "rotZ": 0.00555519573,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Destroyed Advanced Dwarf Spider Droid [Heavy Cover](Area Terrain)",
+          "Description": "Heavy Cover (Area Terrain):\nMini Size 2 and below\n\nTrooper: Difficult\nG. Vehicle: Difficult\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = 24.7082538604736, y = 1.55383205413818, z = -8.63409614562988}\nrotation = {x = -0.00296533550135791, y = 89.9867172241211, z = 0.00555519573390484}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "308a95"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -25.3752232,
+            "posY": 1.44452453,
+            "posZ": 1.54730058,
+            "rotX": 359.966125,
+            "rotY": 14.9810591,
+            "rotZ": 0.0020546224,
+            "scaleX": 1.0999999,
+            "scaleY": 1.0999999,
+            "scaleZ": 1.0999999
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 5 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/3375e9ebe255d751196483c59c545591/raw/fe2fa562af6874076a3dc4e0f74dc7c68eeafa63/rock_formation_collider.txthttps://gist.githubusercontent.com/nashjaee/3375e9ebe255d751196483c59c545591/raw/fe2fa562af6874076a3dc4e0f74dc7c68eeafa63/rock_formation_collider.txt",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -25.37522315979, y = 1.44452452659607, z = 1.5473005771637}\nrotation = {x = 359.966125488281, y = 14.9810590744019, z = 0.00205462239682674}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "8baf6c"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 38.2059555,
+            "posY": 1.45004,
+            "posZ": 1.96833456,
+            "rotX": 4.5812285E-05,
+            "rotY": 292.828125,
+            "rotZ": -0.0003198931,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Factory Entrance [Heavy Cover]",
+          "Description": "Heavy Cover:\nMinis Size 4 and below\n\nSides:\nAll - Impassable\nMinis size > 4 treat this as difficult terrain\n\nRoof:\nAll - Open\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.831010461,
+            "g": 0.809914649,
+            "b": 0.80639863
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/920331113102194957/E363252AAB5999E79F19F0CB5268F1477555DB2F/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/920331113102195081/5D0139B8F74FBF9AB8B8745C421CB4E394CC722D/",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/920331113102194957/E363252AAB5999E79F19F0CB5268F1477555DB2F/",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 38.2059555053711, y = 1.45003998279572, z = 1.96833455562592}\nrotation = {x = 4.58122849522624E-05, y = 292.828125, z = -0.000319893093546852}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "5c6dcc"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 26.077095,
+            "posY": 1.53425336,
+            "posZ": 6.4559083,
+            "rotX": 359.9787,
+            "rotY": 345.018738,
+            "rotZ": 0.101801246,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = 26.0770950317383, y = 1.53425335884094, z = 6.45590829849243}\nrotation = {x = 359.978698730469, y = 345.018737792969, z = 0.101801246404648}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "79bf44"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 25.59419,
+            "posY": 1.43792415,
+            "posZ": 8.126988,
+            "rotX": 359.9209,
+            "rotY": 22.6623211,
+            "rotZ": 0.06751407,
+            "scaleX": 1.31070864,
+            "scaleY": 0.184423283,
+            "scaleZ": 0.9290032
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6498258,
+            "g": 0.323511273,
+            "b": 0.216230065
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/780734585255482064/9CA69CBC21ACD9A22F9A7C32C45C02D98253674E/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234780858976044/D7F78E8DBEDD11DFDAF5B61785BD91DA338B1A69/",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234780858945363/D3EEC34C89449348C7E70F3FF7D87AB841D6E3D7/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 25.5941905975342, y = 1.43792414665222, z = 8.12698841094971}\nrotation = {x = 359.9208984375, y = 22.6623210906982, z = 0.067514069378376}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "597a29"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 23.3513241,
+            "posY": 1.5531795,
+            "posZ": -2.633439,
+            "rotX": 359.993958,
+            "rotY": 134.990036,
+            "rotZ": 0.00183510513,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Destroyed Advanced Dwarf Spider Droid [Heavy Cover](Area Terrain)",
+          "Description": "Heavy Cover (Area Terrain):\nMini Size 2 and below\n\nTrooper: Difficult\nG. Vehicle: Difficult\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = 23.3513240814209, y = 1.55317950248718, z = -2.63343906402588}\nrotation = {x = 359.993957519531, y = 134.990036010742, z = 0.00183510512579232}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "b928b2"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 21.4139061,
+            "posY": 1.5537132,
+            "posZ": -9.169115,
+            "rotX": -0.00555722462,
+            "rotY": 180.0131,
+            "rotZ": -0.00297248387,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Destroyed Advanced Dwarf Spider Droid [Heavy Cover](Area Terrain)",
+          "Description": "Heavy Cover (Area Terrain):\nMini Size 2 and below\n\nTrooper: Difficult\nG. Vehicle: Difficult\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = 21.4139060974121, y = 1.5537132024765, z = -9.16911506652832}\nrotation = {x = -0.00555722462013364, y = 180.013107299805, z = -0.00297248386777937}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "30a259"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 19.8650665,
+            "posY": 1.624973,
+            "posZ": -6.564798,
+            "rotX": 355.4442,
+            "rotY": 74.91485,
+            "rotZ": 0.8256011,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Destroyed Advanced Dwarf Spider Droid [Heavy Cover](Area Terrain)",
+          "Description": "Heavy Cover (Area Terrain):\nMini Size 2 and below\n\nTrooper: Difficult\nG. Vehicle: Difficult\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = 19.8650665283203, y = 1.62497305870056, z = -6.56479787826538}\nrotation = {x = 355.444213867188, y = 74.9148483276367, z = 0.825601100921631}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "b1d6f1"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 0.258217484,
+            "posY": 1.44269729,
+            "posZ": -17.3755474,
+            "rotX": 359.988953,
+            "rotY": 150.005829,
+            "rotZ": 359.961761,
+            "scaleX": 1.0999999,
+            "scaleY": 1.0999999,
+            "scaleZ": 1.0999999
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 5 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/3375e9ebe255d751196483c59c545591/raw/fe2fa562af6874076a3dc4e0f74dc7c68eeafa63/rock_formation_collider.txt",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 0.258217483758926, y = 1.44269728660584, z = -17.3755474090576}\nrotation = {x = 359.988952636719, y = 150.005828857422, z = 359.961761474609}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "d196ef"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 26.0046921,
+            "posY": 1.56301236,
+            "posZ": 8.792513,
+            "rotX": 0.0549069159,
+            "rotY": 120.020058,
+            "rotZ": 0.08840302,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = 26.0046920776367, y = 1.56301236152649, z = 8.79251289367676}\nrotation = {x = 0.0549069158732891, y = 120.020057678223, z = 0.0884030163288116}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "b1e4ae"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 31.318512,
+            "posY": 1.44380665,
+            "posZ": 16.0613842,
+            "rotX": 359.983063,
+            "rotY": 255.019516,
+            "rotZ": 359.9774,
+            "scaleX": 1.0999999,
+            "scaleY": 1.0999999,
+            "scaleZ": 1.0999999
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 5 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/3375e9ebe255d751196483c59c545591/raw/fe2fa562af6874076a3dc4e0f74dc7c68eeafa63/rock_formation_collider.txt",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 31.3185119628906, y = 1.44380664825439, z = 16.0613842010498}\nrotation = {x = 359.983062744141, y = 255.019515991211, z = 359.977386474609}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "2af6df"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -22.27878,
+            "posY": 1.57082891,
+            "posZ": 9.255111,
+            "rotX": 359.963379,
+            "rotY": 30.0117016,
+            "rotZ": 359.9919,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = -22.2787799835205, y = 1.57082891464233, z = 9.25511074066162}\nrotation = {x = 359.96337890625, y = 30.0117015838623, z = 359.991912841797}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "8fa21b"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 26.9760761,
+            "posY": 1.66143012,
+            "posZ": 11.4269857,
+            "rotX": 3.782531,
+            "rotY": 44.67759,
+            "rotZ": 354.70282,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = 26.9760761260986, y = 1.66143012046814, z = 11.4269857406616}\nrotation = {x = 3.78253102302551, y = 44.6775894165039, z = 354.702819824219}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "770d36"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 6.737204,
+            "posY": 1.44903529,
+            "posZ": 14.6566153,
+            "rotX": -0.000323972228,
+            "rotY": 194.9935,
+            "rotZ": -1.2311981E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Blast Crater [Light Cover]",
+          "Description": "Light Cover:\nMinis size 1 and below (excluding TX-225)\n\nCrater:\nTrooper - Difficult\nG. Vehicle - Open\nRepulsor - Open\n\nTroopers only get cover if they are fully within this terrain.\n\nDoes not obscure LOS",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.677700341,
+            "g": 0.283619016,
+            "b": 0.206615
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8353f629e1d7e1d213fbe564be21de8e/raw/b20462e946ced3eee4f8260d3b28565e397d800b/gistfile1.txt",
+            "DiffuseURL": "https://i.imgur.com/M7wiIIi.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234540542467139/4036C31123FF00D2459B3ED1E57CD8141ACFAC8D/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 6.73720407485962, y = 1.44903528690338, z = 14.6566152572632}\nrotation = {x = -0.000323972228216007, y = 194.993499755859, z = -1.23119809813943E-06}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "a13293"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -13.9740467,
+            "posY": -0.436341643,
+            "posZ": -14.8254881,
+            "rotX": 8.626551E-05,
+            "rotY": 300.0092,
+            "rotZ": -0.000313346856,
+            "scaleX": 1.19999981,
+            "scaleY": 1.19999981,
+            "scaleZ": 1.19999981
+          },
+          "Nickname": "Cargo Crates [Light Cover]",
+          "Description": "Light Cover:\nMini Size 1 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/785234540542860959/6F605A1BDB22EE619C6B2E2E8FE5C20BD942F82A/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234540542862958/F123CBB8FCF10999EB400495D200C974E6EC1B4B/",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -13.9740467071533, y = -0.436341643333435, z = -14.8254880905151}\nrotation = {x = 8.62655069795437E-05, y = 300.009185791016, z = -0.000313346856273711}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "9c4ffa"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 8.911478,
+            "posY": 1.4491061,
+            "posZ": 1.09436655,
+            "rotX": -0.000324213237,
+            "rotY": 194.989777,
+            "rotZ": -1.38131782E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Blast Crater [Light Cover]",
+          "Description": "Light Cover:\nMinis size 1 and below (excluding TX-225)\n\nCrater:\nTrooper - Difficult\nG. Vehicle - Open\nRepulsor - Open\n\nTroopers only get cover if they are fully within this terrain.\n\nDoes not obscure LOS",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.7020906,
+            "g": 0.312887162,
+            "b": 0.265423536
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": true,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8353f629e1d7e1d213fbe564be21de8e/raw/b20462e946ced3eee4f8260d3b28565e397d800b/gistfile1.txt",
+            "DiffuseURL": "https://i.imgur.com/M7wiIIi.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234540542467139/4036C31123FF00D2459B3ED1E57CD8141ACFAC8D/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 8.91147804260254, y = 1.44910609722137, z = 1.09436655044556}\nrotation = {x = -0.00032421323703602, y = 194.989776611328, z = -1.38131781568518E-06}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "001d7c"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 23.8839111,
+            "posY": 1.51531124,
+            "posZ": 11.8568516,
+            "rotX": 359.928436,
+            "rotY": 194.989609,
+            "rotZ": 0.07601816,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.5686274,
+            "g": 0.2440547,
+            "b": 0.207842231
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8353f629e1d7e1d213fbe564be21de8e/raw/b20462e946ced3eee4f8260d3b28565e397d800b/gistfile1.txt",
+            "DiffuseURL": "https://i.imgur.com/M7wiIIi.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234540542467139/4036C31123FF00D2459B3ED1E57CD8141ACFAC8D/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 23.8839111328125, y = 1.5153112411499, z = 11.8568515777588}\nrotation = {x = 359.928436279297, y = 194.989608764648, z = 0.0760181620717049}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "5f802e"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -21.5206966,
+            "posY": 1.69322836,
+            "posZ": 12.4467068,
+            "rotX": 354.051056,
+            "rotY": 59.7877,
+            "rotZ": 1.24964046,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = -21.5206966400146, y = 1.69322836399078, z = 12.4467067718506}\nrotation = {x = 354.051055908203, y = 59.7877006530762, z = 1.24964046478271}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "f303e2"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 9.9494915,
+            "posY": 1.44396615,
+            "posZ": -7.89880228,
+            "rotX": 359.983368,
+            "rotY": 75.01715,
+            "rotZ": 359.977966,
+            "scaleX": 1.0999999,
+            "scaleY": 1.0999999,
+            "scaleZ": 1.0999999
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 5 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/3375e9ebe255d751196483c59c545591/raw/fe2fa562af6874076a3dc4e0f74dc7c68eeafa63/rock_formation_collider.txt",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 9.94949150085449, y = 1.44396615028381, z = -7.89880228042603}\nrotation = {x = 359.983367919922, y = 75.0171508789063, z = 359.977966308594}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "acb755"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -24.20897,
+            "posY": 1.57038558,
+            "posZ": 13.515213,
+            "rotX": 2.41533417E-05,
+            "rotY": 89.99413,
+            "rotZ": 0.0005561012,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = -24.2089691162109, y = 1.57038557529449, z = 13.5152130126953}\nrotation = {x = 2.41533416556194E-05, y = 89.9941329956055, z = 0.000556101207621396}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "333d96"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 8.316801,
+            "posY": -0.950482368,
+            "posZ": 17.5207767,
+            "rotX": 359.9215,
+            "rotY": 326.329956,
+            "rotZ": 0.175565571,
+            "scaleX": 1.0999999,
+            "scaleY": 1.0999999,
+            "scaleZ": 1.0999999
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 2 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/3375e9ebe255d751196483c59c545591/raw/fe2fa562af6874076a3dc4e0f74dc7c68eeafa63/rock_formation_collider.txt",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 8.31680107116699, y = -0.950482368469238, z = 17.5207767486572}\nrotation = {x = 359.921508789063, y = 326.329956054688, z = 0.17556557059288}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "9ff4db"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -20.1303234,
+            "posY": -0.436355233,
+            "posZ": -10.618495,
+            "rotX": -0.000309057737,
+            "rotY": 210.012848,
+            "rotZ": -8.58263957E-05,
+            "scaleX": 1.19999981,
+            "scaleY": 1.19999981,
+            "scaleZ": 1.19999981
+          },
+          "Nickname": "Cargo Crates [Light Cover]",
+          "Description": "Light Cover:\nMini Size 1 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/785234540542860959/6F605A1BDB22EE619C6B2E2E8FE5C20BD942F82A/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234540542862958/F123CBB8FCF10999EB400495D200C974E6EC1B4B/",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -20.1303234100342, y = -0.436355233192444, z = -10.6184949874878}\nrotation = {x = -0.000309057737467811, y = 210.012847900391, z = -8.58263956615701E-05}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "9761b7"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -0.9466252,
+            "posY": 1.44568455,
+            "posZ": -12.5835066,
+            "rotX": -0.000281675137,
+            "rotY": 164.995132,
+            "rotZ": 0.000161202872,
+            "scaleX": 0.7955451,
+            "scaleY": 0.9171029,
+            "scaleZ": 1.02592409
+          },
+          "Nickname": "Barricade [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.695121944,
+            "g": 0.6480654,
+            "b": 0.633360147
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "DiffuseURL": "https://i.imgur.com/PF3rjzI.jpghttps://i.imgur.com/PF3rjzI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -0.946625173091888, y = 1.44568455219269, z = -12.5835065841675}\nrotation = {x = -0.000281675136648119, y = 164.995132446289, z = 0.000161202871822752}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "514d7d"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -19.5952244,
+            "posY": 1.66910875,
+            "posZ": 9.42987251,
+            "rotX": 2.43541026,
+            "rotY": 134.795349,
+            "rotZ": 353.813782,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = -19.5952243804932, y = 1.66910874843597, z = 9.42987251281738}\nrotation = {x = 2.43541026115417, y = 134.795349121094, z = 353.813781738281}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "d217f4"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 25.18085,
+            "posY": 1.62697184,
+            "posZ": -5.217706,
+            "rotX": 359.3628,
+            "rotY": 176.583313,
+            "rotZ": 4.44668865,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Destroyed Advanced Dwarf Spider Droid [Heavy Cover](Area Terrain)",
+          "Description": "Heavy Cover (Area Terrain):\nMini Size 2 and below\n\nTrooper: Difficult\nG. Vehicle: Difficult\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = 25.1808490753174, y = 1.62697184085846, z = -5.21770620346069}\nrotation = {x = 359.36279296875, y = 176.583312988281, z = 4.44668865203857}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "28caa8"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.8105011,
+            "posY": 2.00989485,
+            "posZ": -4.80733,
+            "rotX": -1.2414248E-05,
+            "rotY": 209.9931,
+            "rotZ": -0.000124197381,
+            "scaleX": 1.19999981,
+            "scaleY": 1.19999981,
+            "scaleZ": 1.19999981
+          },
+          "Nickname": "Cargo Crates [Light Cover]",
+          "Description": "Light Cover:\nMini Size 1 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/785234540542868366/7453AE31568D0854F7D8037777F927998ABBDF98/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234540542868898/14812371280BFF33FA66C30B204E3FA405D27875/",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234540542882490/1B0E80D65DB60FACB3B9DB569DBB101D015DD0C2/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -17.8105010986328, y = 2.00989484786987, z = -4.80733013153076}\nrotation = {x = -1.24142479762668E-05, y = 209.993103027344, z = -0.000124197380500846}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "7edebb"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 11.9297009,
+            "posY": 1.44329381,
+            "posZ": 4.721885,
+            "rotX": 0.0513981767,
+            "rotY": 29.97978,
+            "rotZ": 359.988739,
+            "scaleX": 1.0999999,
+            "scaleY": 1.0999999,
+            "scaleZ": 1.0999999
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 7 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 2",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.399998665,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/0ae48450370150c2c00027895b8e82ba/raw/a1a792c26c857ffd87aba6787c33a932fed0946c/rock_formation_2_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/b9048effba06e7d8baaaacb0594c885b/raw/b71c618b6498c858ae3c55da102c1eaee6c3709e/rock_formation_2_collider.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 11.9297008514404, y = 1.44329380989075, z = 4.72188520431519}\nrotation = {x = 0.0513981766998768, y = 29.9797801971436, z = 359.988739013672}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "b2775e"
+        },
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 20.8313465,
+            "posY": 1.55313265,
+            "posZ": -3.49718666,
+            "rotX": -0.001324803,
+            "rotY": 73.85116,
+            "rotZ": 0.00615903642,
+            "scaleX": 0.92564106,
+            "scaleY": 1.0,
+            "scaleZ": 0.92564106
+          },
+          "Nickname": "Destroyed Advanced Dwarf Spider Droid [Heavy Cover](Area Terrain)",
+          "Description": "Heavy Cover (Area Terrain):\nMini Size 2 and below\n\nTrooper: Difficult\nG. Vehicle: Difficult\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6986062,
+            "g": 0.4549814,
+            "b": 0.397985965
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://www.dropbox.com/s/d61jptcthjui75q/B69_Rubble3_JVG.png?dl=1",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 15.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "position = {x = 20.8313465118408, y = 1.55313265323639, z = -3.4971866607666}\nrotation = {x = -0.00132480298634619, y = 73.8511581420898, z = 0.0061590364202857}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "a38d03"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -16.0913353,
+            "posY": 1.44384241,
+            "posZ": 3.70619845,
+            "rotX": 359.979767,
+            "rotY": 240.001709,
+            "rotZ": 359.986053,
+            "scaleX": 0.8250001,
+            "scaleY": 0.8250001,
+            "scaleZ": 0.8250001
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 5 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/3375e9ebe255d751196483c59c545591/raw/fe2fa562af6874076a3dc4e0f74dc7c68eeafa63/rock_formation_collider.txt",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -16.0913352966309, y = 1.44384241104126, z = 3.7061984539032}\nrotation = {x = 359.979766845703, y = 240.001708984375, z = 359.986053466797}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "17fcc0"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 40.6338577,
+            "posY": 3.14800835,
+            "posZ": 0.714508235,
+            "rotX": 359.976624,
+            "rotY": 257.165466,
+            "rotZ": 0.0353527032,
+            "scaleX": 1.0999999,
+            "scaleY": 1.0999999,
+            "scaleZ": 1.0999999
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 7 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 2",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/3375e9ebe255d751196483c59c545591/raw/fe2fa562af6874076a3dc4e0f74dc7c68eeafa63/rock_formation_collider.txt",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 40.6338577270508, y = 3.14800834655762, z = 0.714508235454559}\nrotation = {x = 359.976623535156, y = 257.165466308594, z = 0.0353527031838894}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "986bd6"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.8894749,
+            "posY": 1.44561732,
+            "posZ": 4.181271,
+            "rotX": 8.225495E-05,
+            "rotY": 90.00834,
+            "rotZ": 0.000316305144,
+            "scaleX": 0.7955451,
+            "scaleY": 0.9171029,
+            "scaleZ": 1.02592409
+          },
+          "Nickname": "Barricade [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.695121944,
+            "g": 0.6480654,
+            "b": 0.633360147
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "DiffuseURL": "https://i.imgur.com/PF3rjzI.jpghttps://i.imgur.com/PF3rjzI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -17.8894748687744, y = 1.44561731815338, z = 4.18127107620239}\nrotation = {x = 8.22549482109025E-05, y = 90.0083389282227, z = 0.000316305144224316}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "4329b9"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 37.3077049,
+            "posY": 1.44560122,
+            "posZ": -7.425932,
+            "rotX": 0.0003237715,
+            "rotY": 14.9979534,
+            "rotZ": -8.37857272E-07,
+            "scaleX": 0.7955451,
+            "scaleY": 0.9171029,
+            "scaleZ": 1.02592409
+          },
+          "Nickname": "Barricade [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.695121944,
+            "g": 0.6480654,
+            "b": 0.633360147
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "DiffuseURL": "https://i.imgur.com/PF3rjzI.jpghttps://i.imgur.com/PF3rjzI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 37.3077049255371, y = 1.44560122489929, z = -7.42593193054199}\nrotation = {x = 0.000323771499097347, y = 14.997953414917, z = -8.37857271562825E-07}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "5ef13d"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 12.432971,
+            "posY": 1.44562435,
+            "posZ": -5.1211133,
+            "rotX": 0.000228284815,
+            "rotY": 59.9912453,
+            "rotZ": 0.000230361518,
+            "scaleX": 0.7955451,
+            "scaleY": 0.9171029,
+            "scaleZ": 1.02592409
+          },
+          "Nickname": "Barricade [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.695121944,
+            "g": 0.6480654,
+            "b": 0.633360147
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "DiffuseURL": "https://i.imgur.com/PF3rjzI.jpghttps://i.imgur.com/PF3rjzI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 12.4329710006714, y = 1.44562435150146, z = -5.12111330032349}\nrotation = {x = 0.000228284814511426, y = 59.9912452697754, z = 0.000230361518333666}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "e143a7"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 37.3225975,
+            "posY": 1.44561732,
+            "posZ": -10.3838348,
+            "rotX": 0.000280667329,
+            "rotY": 344.9873,
+            "rotZ": -0.0001636722,
+            "scaleX": 0.7955451,
+            "scaleY": 0.9171029,
+            "scaleZ": 1.02592409
+          },
+          "Nickname": "Barricade [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.695121944,
+            "g": 0.6480654,
+            "b": 0.633360147
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "DiffuseURL": "https://i.imgur.com/PF3rjzI.jpghttps://i.imgur.com/PF3rjzI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 37.3225975036621, y = 1.44561731815338, z = -10.3838348388672}\nrotation = {x = 0.000280667329207063, y = 344.9873046875, z = -0.000163672200869769}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "b442ec"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 30.4429436,
+            "posY": 1.44557858,
+            "posZ": -1.461305,
+            "rotX": 0.000279516185,
+            "rotY": 345.016571,
+            "rotZ": -0.000167813967,
+            "scaleX": 0.7955451,
+            "scaleY": 0.9171029,
+            "scaleZ": 1.02592409
+          },
+          "Nickname": "Barricade [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.695121944,
+            "g": 0.6480654,
+            "b": 0.633360147
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "DiffuseURL": "https://i.imgur.com/PF3rjzI.jpghttps://i.imgur.com/PF3rjzI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 30.442943572998, y = 1.44557857513428, z = -1.46130502223969}\nrotation = {x = 0.000279516185401008, y = 345.016571044922, z = -0.000167813966982067}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "cab059"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 30.4361839,
+            "posY": 1.44556248,
+            "posZ": 1.48259294,
+            "rotX": 0.0003237832,
+            "rotY": 15.0127392,
+            "rotZ": 3.1855036E-06,
+            "scaleX": 0.7955451,
+            "scaleY": 0.9171029,
+            "scaleZ": 1.02592409
+          },
+          "Nickname": "Barricade [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.695121944,
+            "g": 0.6480654,
+            "b": 0.633360147
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "DiffuseURL": "https://i.imgur.com/PF3rjzI.jpghttps://i.imgur.com/PF3rjzI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 30.4361839294434, y = 1.44556248188019, z = 1.48259294033051}\nrotation = {x = 0.000323783198837191, y = 15.0127391815186, z = 3.18550360134395E-06}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "22cff0"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -18.3766479,
+            "posY": 1.522692,
+            "posZ": 12.2902784,
+            "rotX": 0.008755315,
+            "rotY": 149.995117,
+            "rotZ": 0.00265451078,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.5607843,
+            "g": 0.230088919,
+            "b": 0.1411756
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8353f629e1d7e1d213fbe564be21de8e/raw/b20462e946ced3eee4f8260d3b28565e397d800b/gistfile1.txt",
+            "DiffuseURL": "https://i.imgur.com/M7wiIIi.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234540542467139/4036C31123FF00D2459B3ED1E57CD8141ACFAC8D/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -18.3766479492188, y = 1.52269196510315, z = 12.2902784347534}\nrotation = {x = 0.00875531509518623, y = 149.9951171875, z = 0.00265451078303158}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "5cfc1b"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 13.7231207,
+            "posY": -0.175863251,
+            "posZ": 3.73140764,
+            "rotX": 85.00511,
+            "rotY": 183.140442,
+            "rotZ": 117.545975,
+            "scaleX": 1.0999999,
+            "scaleY": 1.0999999,
+            "scaleZ": 1.0999999
+          },
+          "Nickname": "Fallen Rock Pillar [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 13.7231206893921, y = -0.17586325109005, z = 3.7314076423645}\nrotation = {x = 85.0051116943359, y = 183.140441894531, z = 117.545974731445}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "ad592f"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -12.7126169,
+            "posY": 1.44450974,
+            "posZ": 5.40597153,
+            "rotX": 359.963684,
+            "rotY": 322.395233,
+            "rotZ": -0.004088415,
+            "scaleX": 0.87500006,
+            "scaleY": 0.87500006,
+            "scaleZ": 0.87500006
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 7 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.399998665,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/0ae48450370150c2c00027895b8e82ba/raw/a1a792c26c857ffd87aba6787c33a932fed0946c/rock_formation_2_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/b9048effba06e7d8baaaacb0594c885b/raw/b71c618b6498c858ae3c55da102c1eaee6c3709e/rock_formation_2_collider.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -12.7126169204712, y = 1.44450974464417, z = 5.40597152709961}\nrotation = {x = 359.963684082031, y = 322.395233154297, z = -0.00408841483294964}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "e7ea5a"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 23.8711853,
+            "posY": 1.44565654,
+            "posZ": -14.0075321,
+            "rotX": 0.000324303081,
+            "rotY": 14.997858,
+            "rotZ": -1.294613E-07,
+            "scaleX": 0.7955451,
+            "scaleY": 0.9171029,
+            "scaleZ": 1.02592409
+          },
+          "Nickname": "Barricade [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.695121944,
+            "g": 0.6480654,
+            "b": 0.633360147
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "DiffuseURL": "https://i.imgur.com/PF3rjzI.jpghttps://i.imgur.com/PF3rjzI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 23.8711853027344, y = 1.44565653800964, z = -14.007532119751}\nrotation = {x = 0.00032430308056064, y = 14.9978580474854, z = -1.29461298570277E-07}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "7e5828"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -8.104266,
+            "posY": 1.44555831,
+            "posZ": 12.3892565,
+            "rotX": -0.000312690681,
+            "rotY": 209.990891,
+            "rotZ": -8.580588E-05,
+            "scaleX": 0.7955451,
+            "scaleY": 0.9171029,
+            "scaleZ": 1.02592409
+          },
+          "Nickname": "Barricade [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.695121944,
+            "g": 0.6480654,
+            "b": 0.633360147
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "DiffuseURL": "https://i.imgur.com/PF3rjzI.jpghttps://i.imgur.com/PF3rjzI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -8.10426616668701, y = 1.44555830955505, z = 12.389256477356}\nrotation = {x = -0.000312690681312233, y = 209.99089050293, z = -8.58058774610981E-05}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "750eb1"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -3.533735,
+            "posY": 0.44,
+            "posZ": 2.384925,
+            "rotX": 359.414124,
+            "rotY": 18.730772,
+            "rotZ": 285.20343,
+            "scaleX": 0.7250002,
+            "scaleY": 0.7250002,
+            "scaleZ": 0.7250002
+          },
+          "Nickname": "Destroyed LAAT Gunship [Heavy Cover]",
+          "Description": "Heavy Cover:\nBody - Minis size 3 and below\nWing - Minis size 6 and below\n\nSides:\nTrooper - Difficult\nG.Vehicle - Difficult\nRepulsor - Open\nMinis with size > 4 treat this as open terrain\n\nRoof:\nAll - Open\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": true,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/4ffd951d975d58e376008d40acf0e6be/raw/f50c06ac2c28caa07251b0f96a6a56fc5dfbf727/laat_model.txt",
+            "DiffuseURL": "https://i.imgur.com/szfypFE.jpghttps://i.imgur.com/szfypFE.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/5bc7ec9cde6042692360b7eccaccaddb/raw/06085b5165429a6fc20baa3044ac8d58e29a8f74/laat_collider.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -3.53373503684998, y = 0.439999997615814, z = 2.38492488861084}\nrotation = {x = 359.414123535156, y = 18.7307720184326, z = 285.203430175781}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "6b3dff"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -13.9681158,
+            "posY": -1.45426393,
+            "posZ": -13.0905914,
+            "rotX": -0.0003147022,
+            "rotY": 210.005142,
+            "rotZ": -8.66435E-05,
+            "scaleX": 1.19999981,
+            "scaleY": 1.19999981,
+            "scaleZ": 1.19999981
+          },
+          "Nickname": "Cargo Crates [Light Cover]",
+          "Description": "Light Cover:\nMini Size 1 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/785234540542866356/5E4885FE0560DC376FFC7C1411092E0236436ABA/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234540542867256/F1654D39814397BEB69F64F304D418531458D264/",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -13.9681158065796, y = -1.45426392555237, z = -13.0905914306641}\nrotation = {x = -0.00031470219255425, y = 210.005142211914, z = -8.66435002535582E-05}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "2e3e4e"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -22.0602989,
+            "posY": -1.454263,
+            "posZ": -10.9551458,
+            "rotX": -8.94716E-05,
+            "rotY": 120.005112,
+            "rotZ": 0.000305385067,
+            "scaleX": 1.19999981,
+            "scaleY": 1.19999981,
+            "scaleZ": 1.19999981
+          },
+          "Nickname": "Cargo Crates [Light Cover]",
+          "Description": "Light Cover:\nMini Size 1 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/785234540542866356/5E4885FE0560DC376FFC7C1411092E0236436ABA/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234540542867256/F1654D39814397BEB69F64F304D418531458D264/",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -22.0602989196777, y = -1.45426297187805, z = -10.9551458358765}\nrotation = {x = -8.94715994945727E-05, y = 120.005111694336, z = 0.000305385066894814}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "cb1d18"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -6.193384,
+            "posY": 1.44898224,
+            "posZ": -0.651824951,
+            "rotX": 0.000104825325,
+            "rotY": 299.98642,
+            "rotZ": -0.0003350072,
+            "scaleX": 0.9000001,
+            "scaleY": 0.9000001,
+            "scaleZ": 0.9000001
+          },
+          "Nickname": "Blast Crater [Light Cover]",
+          "Description": "Light Cover:\nMinis size 1 and below (excluding TX-225)\n\nCrater:\nTrooper - Difficult\nG. Vehicle - Open\nRepulsor - Open\n\nTroopers only get cover if they are fully within this terrain.\n\nDoes not obscure LOS",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.597560942,
+            "g": 0.299450666,
+            "b": 0.1988388
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": true,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/4cd8db9491c9f804b679a0c07d995a47/raw/d6e211548521cd3c386e2d29e11a8e13945c4115/sand_mound_model.txt",
+            "DiffuseURL": "https://i.imgur.com/xJTsMo6.jpghttps://i.imgur.com/xJTsMo6.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/8a3c5c11d816ad853a5485e63dffff48/raw/09c0ea0fdb74453156070ab594aa2f9b26af3cef/sand_mound_collider.txt",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -6.19338417053223, y = 1.44898223876953, z = -0.651824951171875}\nrotation = {x = 0.000104825325252023, y = 299.986419677734, z = -0.000335007207468152}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "3b4e81"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -19.7039375,
+            "posY": 1.45246065,
+            "posZ": 12.4112539,
+            "rotX": 359.991943,
+            "rotY": 285.0116,
+            "rotZ": 0.0043097483,
+            "scaleX": 1.4568541,
+            "scaleY": 0.270673364,
+            "scaleZ": 1.138697
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6498258,
+            "g": 0.323511273,
+            "b": 0.216230065
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/780734585255482064/9CA69CBC21ACD9A22F9A7C32C45C02D98253674E/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234780858976044/D7F78E8DBEDD11DFDAF5B61785BD91DA338B1A69/",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234780858945363/D3EEC34C89449348C7E70F3FF7D87AB841D6E3D7/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -19.7039375305176, y = 1.45246064662933, z = 12.4112539291382}\nrotation = {x = 359.991943359375, y = 285.011596679688, z = 0.00430974829941988}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "d88b3a"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 10.1193771,
+            "posY": 0.9811602,
+            "posZ": -9.207928,
+            "rotX": 271.520325,
+            "rotY": 359.666748,
+            "rotZ": 13.1105347,
+            "scaleX": 1.0999999,
+            "scaleY": 1.0999999,
+            "scaleZ": 1.0999999
+          },
+          "Nickname": "Fallen Rock Pillar [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 10.1193771362305, y = 0.981160223484039, z = -9.20792770385742}\nrotation = {x = 271.520324707031, y = 359.666748046875, z = 13.1105346679688}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "91e3d4"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 32.5479736,
+            "posY": 1.44550264,
+            "posZ": 11.87164,
+            "rotX": 0.0002812843,
+            "rotY": 344.984222,
+            "rotZ": -0.0001602197,
+            "scaleX": 0.7955451,
+            "scaleY": 0.9171029,
+            "scaleZ": 1.02592409
+          },
+          "Nickname": "Barricade [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.695121944,
+            "g": 0.6480654,
+            "b": 0.633360147
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "DiffuseURL": "https://i.imgur.com/PF3rjzI.jpghttps://i.imgur.com/PF3rjzI.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/849ec6905a7613c0e656db6e364f8148/raw/48a785f51bbc29ee603725bff2c9ca240f64728e/barricade_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 32.5479736328125, y = 1.44550263881683, z = 11.8716402053833}\nrotation = {x = 0.000281284301308915, y = 344.984222412109, z = -0.000160219700774178}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "59a380"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 11.9253168,
+            "posY": 1.44891059,
+            "posZ": 7.578497,
+            "rotX": 0.000323634129,
+            "rotY": 14.9799213,
+            "rotZ": 1.188217E-06,
+            "scaleX": 0.9000001,
+            "scaleY": 0.9000001,
+            "scaleZ": 0.9000001
+          },
+          "Nickname": "Blast Crater [Light Cover]",
+          "Description": "Light Cover:\nMinis size 1 and below (excluding TX-225)\n\nCrater:\nTrooper - Difficult\nG. Vehicle - Open\nRepulsor - Open\n\nTroopers only get cover if they are fully within this terrain.\n\nDoes not obscure LOS",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6567944,
+            "g": 0.3745281,
+            "b": 0.24372226
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/4cd8db9491c9f804b679a0c07d995a47/raw/d6e211548521cd3c386e2d29e11a8e13945c4115/sand_mound_model.txt",
+            "DiffuseURL": "https://i.imgur.com/xJTsMo6.jpghttps://i.imgur.com/xJTsMo6.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/8a3c5c11d816ad853a5485e63dffff48/raw/09c0ea0fdb74453156070ab594aa2f9b26af3cef/sand_mound_collider.txt",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 11.9253168106079, y = 1.44891059398651, z = 7.5784969329834}\nrotation = {x = 0.000323634129017591, y = 14.9799213409424, z = 1.18821697014937E-06}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "58e271"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -16.0225372,
+            "posY": -0.5608876,
+            "posZ": -5.86472845,
+            "rotX": -0.00343916449,
+            "rotY": 29.9756145,
+            "rotZ": 0.000104584091,
+            "scaleX": 1.19999981,
+            "scaleY": 1.19999981,
+            "scaleZ": 1.19999981
+          },
+          "Nickname": "Cargo Crates [Light Cover]",
+          "Description": "Light Cover:\nMini Size 1 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/785234540542866356/5E4885FE0560DC376FFC7C1411092E0236436ABA/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234540542867256/F1654D39814397BEB69F64F304D418531458D264/",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -16.0225372314453, y = -0.560887575149536, z = -5.86472845077515}\nrotation = {x = -0.00343916448764503, y = 29.9756145477295, z = 0.000104584090877324}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "ca78cd"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -20.891573,
+            "posY": -0.293829322,
+            "posZ": -9.802033,
+            "rotX": -0.000310290168,
+            "rotY": 210.008347,
+            "rotZ": -8.642564E-05,
+            "scaleX": 1.19999981,
+            "scaleY": 1.19999981,
+            "scaleZ": 1.19999981
+          },
+          "Nickname": "Cargo Crates [Light Cover]",
+          "Description": "Light Cover:\nMini Size 1 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/785234540542864090/4FD723285CC44A9067ADE9259B3EFC111F85417D/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234540542864771/5369CAE13DD813A31CD4FA50CACED0A76EA365C8/",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -20.8915729522705, y = -0.293829321861267, z = -9.80203342437744}\nrotation = {x = -0.000310290168272331, y = 210.008346557617, z = -8.64256435306743E-05}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "201a2b"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 40.292038,
+            "posY": 1.01451731,
+            "posZ": 0.443526447,
+            "rotX": 359.8828,
+            "rotY": 134.266571,
+            "rotZ": 0.02115844,
+            "scaleX": 0.86,
+            "scaleY": 1.21583331,
+            "scaleZ": 0.930599749
+          },
+          "Nickname": "Small Cliff [Heavy Cover]",
+          "Description": "Heavy Cover:\nMinis Size 4 and below\n\nSides:\nAll - Impassable\nMinis size > 4 treat this as difficult terrain\n\nRoof:\nAll - Open\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.60452956,
+            "g": 0.353615,
+            "b": 0.3191144
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": true,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/785234780858830582/8BB35CD708C45CBDC9275CDDA82F73389508DFF0/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234780858824706/1151156BCE256721497CF1DBF5B9874179C596CC/",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234780858830582/8BB35CD708C45CBDC9275CDDA82F73389508DFF0/",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 40.2920379638672, y = 1.01451730728149, z = 0.443526446819305}\nrotation = {x = 359.8828125, y = 134.266571044922, z = 0.0211584400385618}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "3de011"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 23.2676067,
+            "posY": 1.449359,
+            "posZ": -6.61688137,
+            "rotX": -0.00250400277,
+            "rotY": 85.28076,
+            "rotZ": 0.00578292646,
+            "scaleX": 2.09743834,
+            "scaleY": 0.213066369,
+            "scaleZ": 1.30478632
+          },
+          "Nickname": "Destroyed Advanced Dwarf Spider Droid [Heavy Cover](Area Terrain)",
+          "Description": "Heavy Cover (Area Terrain):\nMini Size 2 and below\n\nTrooper: Difficult\nG. Vehicle: Difficult\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.6498258,
+            "g": 0.323511273,
+            "b": 0.216230065
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/780734585255482064/9CA69CBC21ACD9A22F9A7C32C45C02D98253674E/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234780858976044/D7F78E8DBEDD11DFDAF5B61785BD91DA338B1A69/",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234780858945363/D3EEC34C89449348C7E70F3FF7D87AB841D6E3D7/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 23.2676067352295, y = 1.4493590593338, z = -6.61688137054443}\nrotation = {x = -0.00250400276854634, y = 85.28076171875, z = 0.00578292645514011}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "42520f"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 22.7908421,
+            "posY": -1.86076689,
+            "posZ": -4.032716,
+            "rotX": 2.94338322,
+            "rotY": 102.006393,
+            "rotZ": 328.66275,
+            "scaleX": 3.0,
+            "scaleY": 3.0,
+            "scaleZ": 3.0
+          },
+          "Nickname": "Destroyed Advanced Dwarf Spider Droid [Heavy Cover](Area Terrain)",
+          "Description": "Heavy Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Difficult\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/969858026283571281/F2359F847B4DFF3757D2AE27D90480A062890466/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/969858026283571356/2E74A89F1E80B0645764DC1B94BF4ADC2940AAAC/",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/969858026283571281/F2359F847B4DFF3757D2AE27D90480A062890466/",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 22.7908420562744, y = -1.86076688766479, z = -4.03271579742432}\nrotation = {x = 2.94338321685791, y = 102.006393432617, z = 328.662750244141}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "466125"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 19.3428516,
+            "posY": 1.44575369,
+            "posZ": -11.40307,
+            "rotX": 359.9862,
+            "rotY": 161.867279,
+            "rotZ": 359.972,
+            "scaleX": 0.67500025,
+            "scaleY": 0.67500025,
+            "scaleZ": 0.67500025
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 2 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/3375e9ebe255d751196483c59c545591/raw/fe2fa562af6874076a3dc4e0f74dc7c68eeafa63/rock_formation_collider.txt",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 19.3428516387939, y = 1.44575369358063, z = -11.4030704498291}\nrotation = {x = 359.986206054688, y = 161.867279052734, z = 359.971984863281}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "912d32"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 26.63142,
+            "posY": 0.6857055,
+            "posZ": -10.2661724,
+            "rotX": 0.0318488032,
+            "rotY": 143.1405,
+            "rotZ": 359.9892,
+            "scaleX": 1.02500129,
+            "scaleY": 1.2309773,
+            "scaleZ": 1.02500772
+          },
+          "Nickname": "Rock Formation [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 2 and below\n\nSides:\nAll - Impassable\n\nMinis with size > 5 treat this as difficult terrain\n\nHeight: 1",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.399998665,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/0ae48450370150c2c00027895b8e82ba/raw/a1a792c26c857ffd87aba6787c33a932fed0946c/rock_formation_2_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/b9048effba06e7d8baaaacb0594c885b/raw/b71c618b6498c858ae3c55da102c1eaee6c3709e/rock_formation_2_collider.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 26.631420135498, y = 0.685705482959747, z = -10.2661724090576}\nrotation = {x = 0.0318488031625748, y = 143.140502929688, z = 359.989196777344}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "8765d5"
+        },
+        {
+          "Name": "Custom_Assetbundle",
+          "Transform": {
+            "posX": 7.96974754,
+            "posY": 1.01017213,
+            "posZ": 0.0174259,
+            "rotX": -0.000314158242,
+            "rotY": 180.001633,
+            "rotZ": 180.000076,
+            "scaleX": 8.754953,
+            "scaleY": 2.94999838,
+            "scaleZ": 4.240166
+          },
+          "Nickname": "Dust",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.5254902,
+            "g": 0.293576866,
+            "b": 0.203920275
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomAssetbundle": {
+            "AssetbundleURL": "http://infinitebucket.com/tts/scenesystem/dust.unity3d",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+          },
+          "LuaScript": "position = {x = 7.96974754333496, y = 1.01017212867737, z = 0.0174259003251791}\nrotation = {x = -0.000314158241963014, y = 180.00163269043, z = 180.000076293945}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "008d5b"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 24.3006344,
+            "posY": 1.4453758,
+            "posZ": 10.544981,
+            "rotX": 359.976,
+            "rotY": 164.995316,
+            "rotZ": 0.101608813,
+            "scaleX": 1.4568541,
+            "scaleY": 0.270673364,
+            "scaleZ": 1.138697
+          },
+          "Nickname": "Rubble Mound [Light Cover]",
+          "Description": "Light Cover (Area Terrain):\nMini Size 1.25 and below\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nHeight: 1\n\nMinis get cover as long the imaginary line between the attacker and defender crosses this terrain, and this terrain blocks LOS of the defender.",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.590592265,
+            "g": 0.348415256,
+            "b": 0.204751492
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/780734585255482064/9CA69CBC21ACD9A22F9A7C32C45C02D98253674E/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/785234780858976044/D7F78E8DBEDD11DFDAF5B61785BD91DA338B1A69/",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234780858945363/D3EEC34C89449348C7E70F3FF7D87AB841D6E3D7/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 24.3006343841553, y = 1.44537580013275, z = 10.5449810028076}\nrotation = {x = 359.976013183594, y = 164.995315551758, z = 0.10160881280899}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "6f05de"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 8.000001,
+            "posY": 0.9475719,
+            "posZ": 3.83058E-06,
+            "rotX": -0.000313205615,
+            "rotY": 180.0012,
+            "rotZ": 8.25644747E-05,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "BATTLEFIELD",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": true,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/785234780859015647/B98B08E01F9F286630AE190B71A63A3BDD6F3E42/",
+            "DiffuseURL": "https://i.imgur.com/0awZWbG.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234780859015647/B98B08E01F9F286630AE190B71A63A3BDD6F3E42/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 8.00000095367432, y = 0.947571873664856, z = 3.83058022634941E-06}\nrotation = {x = -0.000313205615384504, y = 180.001205444336, z = 8.25644747237675E-05}\n\nscripted = true\nfunction onLoad() self.interactable = false end",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "526772"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -7.5184927,
+            "posY": 1.4492,
+            "posZ": -11.7184687,
+            "rotX": -0.0002488376,
+            "rotY": 154.9537,
+            "rotZ": 0.000207598714,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Blast Crater [Light Cover]",
+          "Description": "Light Cover:\nMinis size 1 and below (excluding TX-225)\n\nCrater:\nTrooper - Difficult\nG. Vehicle - Open\nRepulsor - Open\n\nTroopers only get cover if they are fully within this terrain.\n\nDoes not obscure LOS",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.7020906,
+            "g": 0.312887162,
+            "b": 0.265423536
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": true,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8353f629e1d7e1d213fbe564be21de8e/raw/b20462e946ced3eee4f8260d3b28565e397d800b/gistfile1.txt",
+            "DiffuseURL": "https://i.imgur.com/M7wiIIi.jpg",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/785234540542467139/4036C31123FF00D2459B3ED1E57CD8141ACFAC8D/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -7.51849269866943, y = 1.44920003414154, z = -11.7184686660767}\nrotation = {x = -0.000248837604885921, y = 154.953704833984, z = 0.000207598714041524}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "11629d"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -12.82079,
+            "posY": 1.45516229,
+            "posZ": -9.123964,
+            "rotX": 0.131638974,
+            "rotY": 255.000412,
+            "rotZ": 359.964081,
+            "scaleX": 0.9999869,
+            "scaleY": 0.7838561,
+            "scaleZ": 0.999981344
+          },
+          "Nickname": "Forward Command Center [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open\n\nSpecial Thanks: imperialterrain.com",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.674216,
+            "g": 0.5860124,
+            "b": 0.5555822
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": true,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/39efab0cd1f7f06bebe96234166a7e5f/raw/bf1cb1943f287af6cc925fe89f676022393b1ca6/trench_holdout_model.txt",
+            "DiffuseURL": "https://i.imgur.com/yKymdqE.jpghttps://i.imgur.com/yKymdqE.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/39efab0cd1f7f06bebe96234166a7e5f/raw/bf1cb1943f287af6cc925fe89f676022393b1ca6/trench_holdout_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = -12.8207902908325, y = 1.45516228675842, z = -9.12396430969238}\nrotation = {x = 0.13163897395134, y = 255.000411987305, z = 359.964080810547}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "505485"
+        },
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 10.247921,
+            "posY": 0.9596467,
+            "posZ": 17.1137428,
+            "rotX": 271.127441,
+            "rotY": 265.223816,
+            "rotZ": 39.3509254,
+            "scaleX": 1.0999999,
+            "scaleY": 1.0999999,
+            "scaleZ": 1.0999999
+          },
+          "Nickname": "Fallen Rock Pillar [Heavy Cover]",
+          "Description": "Heavy Cover:\nMini Size 1 and below, TX-225, X-34.\n\nTrooper: Difficult\nG. Vehicle: Open\nRepulsor: Open",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.670588255,
+            "g": 0.398992777,
+            "b": 0.352939844
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "DiffuseURL": "https://i.imgur.com/NqvTeah.jpghttps://i.imgur.com/NqvTeah.jpg",
+            "NormalURL": "",
+            "ColliderURL": "https://gist.githubusercontent.com/nashjaee/8c5ce4aca7e9cba562148ec0a2c438e5/raw/4ca2b165bab93fd9bc9537042941d85d1e6fe1b6/rock_formation_model.txt",
+            "Convex": false,
+            "MaterialIndex": 3,
+            "TypeIndex": 0,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "position = {x = 10.2479209899902, y = 0.959646701812744, z = 17.1137428283691}\nrotation = {x = 271.12744140625, y = 265.223815917969, z = 39.3509254455566}\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "f162ad"
+        }
+      ],
+      "GUID": "c15fbf"
+    }
+  ],
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "VersionNumber": ""
+}
