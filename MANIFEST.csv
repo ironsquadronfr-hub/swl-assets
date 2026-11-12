@@ -479,3 +479,5 @@ ui_tab_v2.png,4d84a8fb64485292627a9cd686ff92e4894f06bf9458dfb4462667a9d310ce63,8
 ui_tab_active_v2.png,32435f5b8937b55d2b5cf0943f236f035107fa3786ab0c1994cf7b4e87ac1599,1018,isq-overlay-assets,iron-squadron (UI style v6: welcome window and floating menu)
 loader_choice_stable_v1.jpg,4e0e19dcd62bf2b653afbc907a155edf1a96191f7d32cebe97ee2ab504c0ac8e,161467,loader-shell,iron-squadron (loader shell Stable/Beta chooser, art by Martin)
 loader_choice_beta_v1.jpg,276a42184fdeb52eb837cd26d4987bdec2a4dee5393131dc103fa9db28632185,147888,loader-shell,iron-squadron (loader shell Stable/Beta chooser, art by Martin)
+featured_maps_competitive_v1.json,98f66a9d4d7279e819c3e037cf0bc9a481b57eb398178f6f28f12aebaec9df0d,809,featured-maps-lists,https://raw.githubusercontent.com/swlegion/tts/ed757cd101060b60000deebccabda4b93ee8a4a0/contrib/maps/competitive.json
+featured_maps_recon_v1.json,7a8427e149bd20271029ef53cc8776f09ced3bb4f43deaaa8dcdc2a371116ac6,793,featured-maps-lists,https://raw.githubusercontent.com/swlegion/tts/ed757cd101060b60000deebccabda4b93ee8a4a0/contrib/maps/skirmish.json
