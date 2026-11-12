@@ -26,6 +26,11 @@ because their cache never asks again. A new version is a **new name** —
 bytes. `MANIFEST.csv` records the sha256 of every file precisely so this
 rule can be checked rather than trusted.
 
+The one exception is a lossless re-encode, where the decoded pixels or values
+are proven identical to the old file: a stale cache then shows exactly the same
+thing. The manifest's sha256 and size are updated in the same commit. This was
+done once, on 2026-11-12, for every JPG, PNG, OBJ and JSON file.
+
 **3. Every file is listed in `MANIFEST.csv`.** Name, sha256, size, the batch
 it came from, and where it came from originally. A file on disk that is not
 in the manifest, or a manifest line with no file, is a bug.
