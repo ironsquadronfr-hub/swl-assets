@@ -1,0 +1,10 @@
+# Maillage invisible (tetraedre de 0,02 pouce cache dans le moyeu) : porte la
+# collision des pieces physiques du socle plexiglas (jumelles des pieces visuelles).
+v -0.01 0.10 -0.01
+v 0.01 0.10 -0.01
+v 0.00 0.10 0.01
+v 0.00 0.12 0.00
+f 1 3 2
+f 1 2 4
+f 2 3 4
+f 3 1 4
