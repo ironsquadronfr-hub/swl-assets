@@ -59,7 +59,7 @@ change, no manifest line.
 | `isq-overlay-assets` | 91 | range and cohesion overlays, projectors, silhouettes, the height guide |
 | `isq-token-assets` | 16 | the V2 tokens, including the dual-platform smoke volume |
 | `isq-map-assets` | 3 | the Imperial Checkpoint marble, recovered from the Wayback Machine, and the POI guide projector (v1, v2) |
-| `flier` | 27 | the Flier rank (2026): the flying vehicle stand in plexiglass (Windows and Mac bundles, invisible collision twins), the flight rulers and their Maximum Move rings, the Flier order tokens and tray slot, the T-65 X-wing card, and the T-65 model and texture from the TTS X-Wing mod (used with permission) |
+| `flier` | 34 | the Flier rank (2026): the flying vehicle stand in plexiglass (Windows, Mac and Linux bundles, invisible collision twins), the flight rulers and their Maximum Move rings, the Flier order tokens and tray slot, the T-65 X-wing card, and the T-65 model and texture from the TTS X-Wing mod (used with permission) |
 | `featured-maps` | 65 | Featured Map assets rescued off fragile third-party hosts, two that died on Steam, and Geonosis's dust rebuilt |
 
 The `featured-maps` batch deserves a word. The ten Featured Maps pull 258
